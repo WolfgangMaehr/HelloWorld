@@ -10,6 +10,10 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hallo Welt - so an geila Scheiss");
+            Console.WriteLine("drücke ENTER zum Beenden");
+            Console.ReadLine();
+            
         }
     }
 }
