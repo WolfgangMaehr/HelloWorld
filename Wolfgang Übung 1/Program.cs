@@ -21,11 +21,11 @@ namespace Wolfgang_Übung_1
             string zweiteZahl = Console.ReadLine();
 
             //Zahl umwandeln in string
-            float ersteZahlalsZahl = Convert.ToSingle(ersteZahl);
-            float zweiteZahlalsZahl = Convert.ToSingle(zweiteZahl);
+            double ersteZahlalsZahl = Convert.ToDouble(ersteZahl);
+            double zweiteZahlalsZahl = Convert.ToDouble(zweiteZahl);
 
             //berechnen
-            float summe = ersteZahlalsZahl + zweiteZahlalsZahl;
+            double summe = ersteZahlalsZahl + zweiteZahlalsZahl;
 
             //Ergebnisanzeige
             Console.WriteLine("Ergebnis: {0}", summe);
